@@ -31,6 +31,7 @@ using namespace std::chrono_literals;
 using namespace std::string_literals;
 
 using namespace utils;
+using namespace std;
 
 template <typename T>
 using SharedPtr = boost::shared_ptr<T>;

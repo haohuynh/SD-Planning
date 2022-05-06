@@ -32,6 +32,8 @@ using SharedPtr = boost::shared_ptr<T>;
 
 using Waypoint = cc::Waypoint;
 
+using namespace std;
+
 class MotionPlanner {
  private:
   unsigned short _num_paths;  // number of lateral offset paths to generate.
